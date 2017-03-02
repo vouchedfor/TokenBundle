@@ -24,7 +24,7 @@ Add the url of the endpoint responsible for encoding/decoding tokens to `config.
 
     // app/config/config.yml
     vouched_for_token:
-        vouchedfor_token_url: 'http://token-local.vouchedfor.co.uk/v2/token/'
+        url: 'http://token-local.vouchedfor.co.uk/v2/token/'
         
 ## License
 
