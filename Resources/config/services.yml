@@ -1,4 +1,4 @@
 services:
     vouchedfor_token:
       class: VouchedFor\TokenBundle\Encoder\TokenEncoder
-      arguments: ["%vouchedfor_token_url%"]
+      arguments: ["%vouchedfor_token.url%"]
