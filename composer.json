@@ -9,6 +9,9 @@
             "name": "Jonathan Stidwill"
         }
     ],
+    "require": {
+        "symfony/config": "~4.2"
+    },
     "autoload": {
         "psr-4": { "VouchedFor\\TokenBundle\\": "" }
     }

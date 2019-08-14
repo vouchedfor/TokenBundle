@@ -17,10 +17,9 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('vouched_for_token');
+        $treeBuilder = new TreeBuilder('vouched_for_token');
 
-        $rootNode
+        $treeBuilder->getRootNode()
             ->children()
             ->scalarNode('url')
             ->end();
