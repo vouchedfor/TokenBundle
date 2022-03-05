@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "symfony/config": "~4.2 |~5.0"
+        "symfony/config": "~4.2 |~5.0|~6.0"
     },
     "autoload": {
         "psr-4": { "VouchedFor\\TokenBundle\\": "" }
